@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Search</title>
+
+    <link rel="stylesheet" href="variables.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="handle-actions.js"></script>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 user-scalable=no"
+    />
+
+  </head>
+  <body>
+    <header></header>
+    <main id="search-page">
+      <form action="https://www.google.com/search">
+        <label id="label-search">Google</label>
+        <input type="text" placeholder="Search Google or type a URL" name="q" />
+        <input type="submit" value="Google Search" />
+      </form>
+
+      <!-- Change another pages -->
+      <div id="change-pages-div">
+        <a href="image-search-page.html" target="_blank">Image Search</a>
+        <a href="advanced-search-page.html" target="_blank">Advanced Search</a>
+      </div>
+
+    </main>
+  </body>
+</html>

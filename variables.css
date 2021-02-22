@@ -1,0 +1,73 @@
+one-search-input, #search-page form input[type=text] {
+  width: 70%;
+  max-width: 800px;
+  height: 30px;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border-radius: 5px;
+  border-width: 0.3px;
+  box-shadow: 0 0 5px white;
+  transition: box-shadow 0.33s ease-in-out;
+}
+one-search-input:hover, #search-page form input[type=text]:hover {
+  box-shadow: 0 0 5px #51cbee;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+}
+
+#search-page {
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+}
+#search-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#search-page form #label-search {
+  font-size: 90px;
+  transition: font-size 0.25s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  #search-page form #label-search {
+    font-size: 60px;
+  }
+}
+#search-page form section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#search-page form section label {
+  text-align: start;
+  align-self: center;
+  margin-right: 20px;
+}
+#search-page input[type=submit] {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  font-size: 100%;
+  align-self: center;
+  border-width: 0;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgba(232, 232, 232, 0.74);
+  border-radius: 20px;
+}
+#search-page input[type=submit]:hover {
+  box-shadow: 0 0 3pt 2pt rgba(179, 179, 179, 0.5);
+}
+#search-page #change-pages-div {
+  display: grid;
+  margin: auto;
+  width: 20%;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+#search-page #change-pages-div a {
+  text-align: center;
+}
+
+/*# sourceMappingURL=variables.css.map */
